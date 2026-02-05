@@ -37,5 +37,22 @@ int main() {
 
   bool myBool = true; // Boolean
   std::cout << "My Bool: " << myBool << "\n";
+
+  // Declare Multiple Variable
+  int x, y, z;
+  x = 2;
+  y = 4;
+  z = 6;
+  std::cout << "My Multiple Variabel: " << x << " " << y << " " << z << "\n";
+
+  // One Value to All Variable
+  int n, m;
+  m = n = 50;
+  std::cout << "One Value to All Variable m & n: " << m << " " << n << "\n";
+
+  // Constant
+  const int myConts = 100;
+  // myConst = 101; -> Error
+  std::cout << "My Constant Variable: " << myConts << "\n";
   return 0;
 }
