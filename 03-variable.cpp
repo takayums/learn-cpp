@@ -4,11 +4,44 @@
 int main() {
   /*
    * Tipe Data C++
-   * - Int
-   * - Double
-   * - Char
-   * - String
-   * - Bool
+   * - Int -> Size 2 - 4 Byte
+   * - Double -> Size 8 Byte
+   * - Char -> Size 1 Byte
+   * - String -> ??
+   * - Boolean -> Size 1 Byte
+   */
+
+  /*
+   * Float dan Double
+   * Bedanya Float maksimal nilai setelah titi adalah 6 - 7 digit. Sedangkan
+   * untuk double yaitu nilai setelah titik sampai 15 digit.
+   * */
+
+  /*
+   * Boolean
+   * Nilai Bolean yitu true or false.
+   * Nilai true = 1 dan false = 0.
+   * */
+
+  /*
+   * Char
+   * Nilai Char yaitu menyimpan satu karakter dengan ditandai single quote.
+   * Nilai Char merepresentasikan huruf yang dapat dirubah jadi angka atay bisa
+   * dikatakan untuk ASCII..
+   */
+
+  /*
+   * String
+   * Nilai string berisi beberapa karakter yang disimpan dalam double quote.
+   * Berbeda dengan char yang hanya menyimpan stau karakter dan juga single
+   * quote.
+   */
+
+  /*
+   * Auto
+   * Deklarasi dengan auto, akan memberikan otomatis type data bedasarkan nilai
+   * yang dimasukkan. Tidak bisa digunakan dengan deklarasi tanpa diisi dengan
+   * nilainya. auto x;
    */
 
   // Declaration Variable
